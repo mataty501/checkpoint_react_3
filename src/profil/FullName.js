@@ -7,13 +7,13 @@ import React from 'react';
 */
 
 
-const fullName = (first,last) => {
+const FullName = () => {
     return( 
         <React.Fragment>
-        {first + ' ' + last}
+            <p className="card-text">walid alioua</p>
         </React.Fragment>
     )
 }
 
-export default fullName;
+export default FullName;
 

@@ -10,8 +10,7 @@ import React from 'react';
 const Address = (adress) => {
     return( 
         <React.Fragment>
-        {adress}
-        
+            <p className="card-adress">Kouba - Alger </p>
         </React.Fragment>
     )
 }

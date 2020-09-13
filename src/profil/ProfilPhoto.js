@@ -1,6 +1,6 @@
 import React from 'react';
 import img from "../img/dz.jpg"
-import fullName from "../profil/FullName"
+import FullName from "./FullName"
 import Address from "./Address"
 import '../App.css';
 
@@ -17,8 +17,8 @@ const ProfilPhoto = () => {
         <img className="profile-pic" src={img} alt="img-1"/> 
 
             <div className="card-body">
-                <p className="card-text">{fullName('walid','alioua')}</p>
-                <p className="card-adress">{Address('Kouba - Alger')}</p>
+                <FullName/>
+                <Address/>
             </div>
         </div>
         
